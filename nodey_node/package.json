@@ -1,0 +1,21 @@
+{
+  "name": "nodey_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "brain_server.js",
+  "scripts": {
+    "start": "nodemon brain_server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
